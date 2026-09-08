@@ -1,6 +1,6 @@
 /* Internal-test, foreground-only aggregate telemetry. No coordinates or raw errors leave the page. */
 (()=>{'use strict';
-const ID='G-55SFX6CT6E',VERSION='r18-analytics-2',KEY='hall_analytics_internal_v2';
+const ID='G-55SFX6CT6E',VERSION='r19-interfaces-1',KEY='hall_analytics_internal_v2';
 const allowed=location.hostname==='ryanlin02.github.io'&&location.pathname.startsWith('/chiayi-concert-hall-tour/');
 const debug=new URLSearchParams(location.search).get('analytics_debug')==='1';
 let choice;try{choice=localStorage.getItem(KEY)}catch{}
