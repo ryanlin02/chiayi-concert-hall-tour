@@ -1,0 +1,63 @@
+{
+  "schema": 1,
+  "assets": {
+    "engine": {
+      "url": "index.wasm",
+      "download": "index.fc74679e3b97f768.wasm",
+      "bytes": 39514754,
+      "sha256": "fc74679e3b97f76878947fcd4fbe1268cbfa6188182a2e33bbc3f5dc9bfa57d0",
+      "group": "core",
+      "type": "application/wasm"
+    },
+    "tour": {
+      "url": "index.pck",
+      "download": "index.ef806dcc78610739.pck",
+      "bytes": 43232360,
+      "sha256": "ef806dcc78610739e21764229ca5d85c02a0703c800338b4d488697b58f4bf4b",
+      "group": "core",
+      "type": "application/octet-stream"
+    },
+    "hall": {
+      "url": "assets/hall.glb",
+      "download": "assets/hall.1397ea5fead81fdf.glb",
+      "bytes": 13066252,
+      "sha256": "1397ea5fead81fdf5487ad67eb11be93547a7738d9d892a12e51143f017908ac",
+      "group": "core",
+      "type": "model/gltf-binary"
+    },
+    "stage": {
+      "url": "assets/stage.glb",
+      "download": "assets/stage.c9d8c4b1e017410a.glb",
+      "bytes": 4236624,
+      "sha256": "c9d8c4b1e017410a2785a0411d11d3012e206faba9b262d52e551db608d7a083",
+      "group": "core",
+      "type": "model/gltf-binary"
+    },
+    "band": {
+      "url": "optional/band.zip",
+      "download": "optional/band.6ea0f2f7135c9303.zip",
+      "bytes": 13075433,
+      "sha256": "6ea0f2f7135c93036b91e96e40f83986d259d4eb0ad5d47ed82afe29a68b9511",
+      "group": "performance",
+      "type": "application/zip"
+    },
+    "music": {
+      "url": "optional/music.mp3",
+      "download": "optional/music.0e0e15d40abb74f0.mp3",
+      "bytes": 8440154,
+      "sha256": "0e0e15d40abb74f0162ea39655568038c44995f0406af6c3f2cbcb415ebd7db3",
+      "group": "performance",
+      "type": "audio/mpeg"
+    },
+    "lights": {
+      "url": "optional/lights.pck",
+      "download": "optional/lights.1afed267b0859b76.pck",
+      "bytes": 23590788,
+      "sha256": "1afed267b0859b7657f0c78924e80f35bc4ff2312d0e9ca2cc396d5b3380ef1e",
+      "group": "performance",
+      "type": "application/octet-stream"
+    }
+  },
+  "release": "2026.09.01",
+  "version": "73e9590f0ce615ea"
+}
